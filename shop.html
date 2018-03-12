@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8">
+  <title>Средства для ухода</title>
+  <link rel="stylesheet" href="/css/normalize.css">
+  <link rel="stylesheet" href="/css/master.css">
+</head>
+
+<body>
+  <header class="main-header">
+    <div class="container">
+      <div class="header-logo">
+        <img src="img/header-logo.png" alt="Barbershop" width="111" height="24">
+      </div>
+      <nav class="main-navigation">
+        <ul>
+          <li>
+            <a href="#">Информация</a>
+          </li>
+          <li>
+            <a href="#">Новости</a>
+          </li>
+          <li>
+            <a href="#">Прайс-лист</a>
+          </li>
+          <li>
+            <a href="#" class="active-nav">Магазин</a>
+          </li>
+          <li>
+            <a href="#">Контакты</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="user-block">
+        <a class="login" href="#">Вход</a>
+      </div>
+    </div>
+  </header>
+  <main class="container">
+    <h1>Средства для ухода</h1>
+    <ul class="breadcrumbs">
+      <li>
+        <a href="#">Главная</a>
+      </li>
+      <li>
+        <a href="#">Магазин</a>
+      </li>
+      <li>
+        <a href="#">Средства для ухода</a>
+      </li>
+    </ul>
+    <div class="shop-filter">
+      <form class="shop-filter" action="index.html" method="post">
+        <b>Производители:</b><br>
+        <label>
+          <input type="checkbox" name="baxter-of-california" checked> Baxter of California<br>
+        </label>
+        <label>
+          <input type="checkbox" name="mr-natty"> Mr Natty<br>
+        </label>
+        <label>
+          <input type="checkbox" name="suavecito" checked> Suavecito<br>
+        </label>
+        <label>
+          <input type="checkbox" name="malin+goetz"> Malin+Goetz<br>
+        </label>
+        <label>
+          <input type="checkbox" name="murrays"> Murray’s<br>
+        </label>
+        <label>
+          <input type="checkbox" name="american-crew" checked> American Crew<br>
+        </label>
+        <b>Группы товаров:</b><br>
+        <label>
+          <input type="radio" name="product-group" value="shaving-items"> Бритвенные принадлежности<br>
+        </label>
+        <label>
+          <input type="radio" name="product-group" value="care-items" checked> Средства для ухода<br>
+        </label>
+        <label>
+          <input type="radio" name="product-group" value="accessories"> Аксессуары
+        </label><br>
+        <button type="submit" class="btn">Показать</button>
+      </form>
+    </div>
+    <div class="shop-list">
+      <div class="shop-item">
+        <img src="img/shop-item-1.jpg" alt="" width="220" height="165">
+        <p class="shop-item-name">Набор для путешествий  «Baxter of California»</p>
+        <div class="item-buy-btn">
+          <span>2 900 руб.</span><button type="button" class="btn buy-btn">Купить</button>
+        </div>
+      </div>
+      <div class="shop-item">
+        <img src="img/shop-item-2.jpg" alt="" width="220" height="165">
+        <p class="shop-item-name">Увлажняющий кондиционер  «Baxter of California»</p>
+        <div class="item-buy-btn">
+          <span>750 руб.</span><button type="button" class="btn buy-btn">Купить</button>
+        </div>
+      </div>
+      <div class="shop-item">
+        <img src="img/shop-item-3.jpg" alt="" width="220" height="165">
+        <p class="shop-item-name">Гель для волос «Suavecito»</p>
+        <div class="item-buy-btn">
+          <span>290 руб.</span><button type="button" class="btn buy-btn">Купить</button>
+        </div>
+      </div>
+      <div class="shop-item">
+        <img src="img/shop-item-4.jpg" alt="" width="220" height="165">
+        <p class="shop-item-name">Глина для укладки волос  «American Crew»</p>
+        <div class="item-buy-btn">
+          <span>500 руб.</span><button type="button" class="btn buy-btn">Купить</button>
+        </div>
+      </div>
+      <div class="shop-item">
+        <img src="img/shop-item-5.jpg" alt="" width="220" height="165">
+        <p class="shop-item-name">Гель для волос «American Crew»</p>
+        <div class="item-buy-btn">
+          <span>300 руб.</span><button type="button" class="btn buy-btn">Купить</button>
+        </div>
+      </div>
+      <div class="shop-item">
+        <img src="img/shop-item-6.jpg" alt="" width="220" height="165">
+        <p class="shop-item-name">Набор для бритья «Baxter of California»</p>
+        <div class="item-buy-btn">
+          <span>3 900 руб.</span><button type="button" class="btn buy-btn">Купить</button>
+        </div>
+      </div>
+    </div>
+    <div class="paginator">
+      <ul>
+        <li>
+          <a href="#">1</a>
+        </li>
+        <li>
+          <a href="#" class="shop-active-page">2</a>
+        </li>
+        <li>
+          <a href="#">3</a>
+        </li>
+        <li>
+          <a href="#">4</a>
+        </li>
+      </ul>
+    </div>
+  </main>
+  <footer class="main-footer">
+    <div class="container">
+      <section class="footer-contacts">
+        Барбершоп «Бородинский»<br> Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8<br>
+        <a href="#">Как нас найти?</a><br> Телефон: +7 (495) 666-02-66
+      </section>
+      <section class="footer-social">
+        <p>Давайте дружить!</p>
+        <a class="social-btn social-btn-vk" href="#">Вконтакте</a>
+        <a class="social-btn social-btn-fb" href="#">Фейсбук</a>
+        <a class="social-btn social-btn-inst" href="#">Инстаграм</a>
+      </section>
+      <section class="footer-copyright">
+        <p>Разработано:</p>
+        <a class="btn" href="https://htmlacademy.ru">HTML Academy</a>
+      </section>
+    </div>
+  </footer>
+</body>
+</html>
